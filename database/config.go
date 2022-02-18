@@ -3,10 +3,10 @@ package database
 import "fmt"
 
 type Config struct {
-	ServerName string
 	User       string
 	Password   string
 	DB         string
+	ServerName string
 }
 
 var GetConnectionString = func(config Config) string {
